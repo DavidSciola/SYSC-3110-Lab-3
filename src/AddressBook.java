@@ -25,6 +25,8 @@ public class AddressBook {
 
 
     public static void main(String[] args) {
+        //this comment was added on testbranch1
+
         //this comment was added from the github site
         
         // test comment 1
@@ -32,6 +34,10 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(0);
+    }
+
+    public void testMethod(){
+        System.out.println("this is a test method that was added on testbranch1");
     }
 
 }
