@@ -25,6 +25,8 @@ public class AddressBook {
 
 
     public static void main(String[] args) {
+        //this comment was added from the github site
+        
         // test comment 1
         BuddyInfo buddy = new BuddyInfo("Tom");
         AddressBook addressBook = new AddressBook();
